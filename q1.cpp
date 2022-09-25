@@ -7,22 +7,21 @@ void getinput(float &, float &);
 void swapTwoValues(int &, int &);
 void swapTwoValues(float &, float &);
 
-//
 int main()
 {
 	int num1, num2;
 	float fnum1, fnum2;
 	getinput(num1, num2);
-	cout << setw(5) << num1 << setw(5) << num2 << setw(5) << endl;
+	cout << num1 << " " << num2 << endl;
 	swapTwoValues(num1, num2);
-	cout << setw(5) << num1 << setw(5) << num2 << setw(5) << endl;
+	cout << num1 << " " << num2 << endl;
 
 	// -- Call overloaded function with float parameters
 	getinput(fnum1, fnum2);
 	cout << fixed << setprecision(2);
-	cout << fnum1 << " " << fnum2 << endl;
+	cout << num1 << " " << num2 << endl;
 	swapTwoValues(fnum1, fnum2);
-	cout << fnum1 << " " << fnum2 << endl;
+	cout << num1 << " " << num2 << endl;
 }
 void getinput(int &num1, int &num2)
 {
