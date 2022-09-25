@@ -3,7 +3,7 @@
     {
       "name": "T1",
       "setup": "",
-      "run": "g++ -std=c++11 q.cpp && ./a.out",
+      "run": "g++ -std=c++11 q1.cpp && ./a.out",
       "input": "10 20",
       "output": "[20, 10]",
       "comparison": "regex",
