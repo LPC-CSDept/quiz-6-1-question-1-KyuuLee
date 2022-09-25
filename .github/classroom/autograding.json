@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "T1",
+      "setup": "",
+      "run": "g++ -std=c++11 q.cpp && ./a.out",
+      "input": "10 20",
+      "output": "[20, 10]",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "T2",
+      "setup": "",
+      "run": "g++ -std=c++11 q1.cpp && ./a.out",
+      "input": "12.34 98.76",
+      "output": "98.76 12.34",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    }
+  ]
+}
