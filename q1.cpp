@@ -7,6 +7,7 @@ void getinput(float &, float &);
 void swapTwoValues(int &, int &);
 void swapTwoValues(float &, float &);
 
+//
 int main()
 {
 	int num1, num2;
