@@ -5,7 +5,7 @@
       "setup": "",
       "run": "g++ -std=c++11 q1.cpp && ./a.out",
       "input": "10 20",
-      "output": "[20, 10]",
+      "output": "[\\w,\\W]*20[\\w,\\W]*10[\\w,\\W]",
       "comparison": "regex",
       "timeout": 10,
       "points": 3
